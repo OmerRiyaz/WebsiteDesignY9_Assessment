@@ -53,6 +53,14 @@ body {
   float: right;
 }
 
+.research {
+  /* background-color: dodgerblue; */
+  color: black;
+  min-height: 100%; /*replace this it in width: 100%*/
+
+  float: right;
+}
+
 .card-title {
   font-size: 30px;
   text-align: center;
