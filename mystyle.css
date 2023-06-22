@@ -3,12 +3,11 @@ body {
   border: 1px solid black;
   max-width: 900px;
   margin: auto;
-  background: linear-gradient(
-    90deg,
-    rgb(155, 151, 233) 0%,
-    rgb(88, 88, 228) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-image: url("Images/Canyon.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+  
 }
 .topnav {
   background-color: #333;
@@ -52,10 +51,11 @@ body {
 }
 .card-container {
   overflow: hidden;
+background-color: rgba( 255, 255, 255, 0.7);
 }
 
 .card {
-  /* background-color: dodgerblue; */
+  background-color: rgba( 255, 255, 255, 0.7);
   color: black;
   min-height: 100%; /*replace this it in width: 100%*/
   width: 65%;
@@ -175,3 +175,23 @@ div.card-image1 img {
   font-size: 1.2rem;
   font-weight: 300;
 }
+
+.information
+  {margin: auto;
+  width: 70%;
+  border-left: 5px solid black;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  padding: 0px
+  margin-top: 5px;
+  border: 7px double green;
+    background-color: rgba(225, 225, 225, 0.7);
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 21px;}
+  
